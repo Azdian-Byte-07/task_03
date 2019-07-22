@@ -4,7 +4,19 @@
         <meta charset="utf-8">
         <title>List</title>
     </head>
-    <body>
+    <body style="background: lavender; color: navy">
+
+    <div>
+    {% for item in my_list %} <!-- Jinga requires function object without parantheses () for loop to work. -->
+    <h1>{{item.restaurant_name }} </h1>
+        <p>{{item.food_type}}</p>
+    <br>
+
+    {% endfor %}
+
+
+
+    </div>
 
     </body>
 </html>

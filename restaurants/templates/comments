@@ -1,0 +1,6 @@
+ <!--
+                 context["my_list"][0]["restaurant_name"]}} and it serves: {{["my_list"][0]["food_type"] }}
+
+       <h3>{{context["my_list"][1]["restaurant_name"]}} and it serves: {{["my_list"][1]["food_type"]}}}}</h3>
+        <h3>{{context["my_list"][2]["restaurant_name"]}} and it serves: {{["my_list"][2]["food_type"]}}}}</h3>
+     -->
